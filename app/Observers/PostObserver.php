@@ -4,6 +4,7 @@ namespace App\Observers;
 
 use App\Events\PostCreated;
 use App\Models\Post;
+use Illuminate\Support\Facades\Redis;
 
 class PostObserver
 {
